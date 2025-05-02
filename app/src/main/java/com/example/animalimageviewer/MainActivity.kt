@@ -46,7 +46,7 @@ class MainActivity : ComponentActivity() {
 fun ImageViewerApp(modifier: Modifier = Modifier) {
     data class Animal(val imageRes: Int, val label: String)
 
-    val cat = Animal(R.drawable.`animal1`, "Cute cat image")
+    val cat = Animal(R.drawable.animal1, "Cute cat image")
     val dog = Animal(R.drawable.animal2, "Cute dog image")
     val chicken = Animal(R.drawable.animal3, "Cute chicken image")
 
